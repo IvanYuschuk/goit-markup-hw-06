@@ -372,6 +372,7 @@ p {
 .down-line .logo {
     display: inline-block;
     margin-bottom: 16px;
+    padding: 0;
 }
 .down-logo {
     color: #F4F4FD;
