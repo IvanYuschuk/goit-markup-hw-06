@@ -250,13 +250,11 @@ p {
                 66,
                 0.7)),
         url(../images/bg-img-mobile.jpg);
-    width: 320px;
-    height: 432px;;
+    max-width: 320px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     padding: 72px 0;
-    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -304,8 +302,7 @@ p {
 }
 @media screen and (min-width: 768px) {
     .service {
-        height: 436px;
-        width: 768px;
+        max-width: 768px;
         background-image: linear-gradient(to bottom,
                 rgba(46,
                     47,
@@ -338,8 +335,7 @@ p {
 }
 @media screen and (min-width: 1158px) {
     .servise {
-        height: 600px;
-        width: 1158px;
+        max-width: 1440px;
         background-image: linear-gradient(to bottom,
                     rgba(46,
                         47,
@@ -354,8 +350,7 @@ p {
     }
     @media screen and (min-resolution: 192dpi) {
         .service {
-            height: 600px;
-            width: 1158px;
+            max-width: 1440px;
             padding: 188px 0;
             background-image: linear-gradient(to bottom,
                     rgba(46,
@@ -1164,7 +1159,7 @@ input[type="checkbox"]:checked {
     background-color: #404BBF
 }
 @media screen and (min-width: 768px) {
-    .modal-overlay.is-open{
+    .modal{
          padding-left: 24px;
          padding-right: 24px;
     }
